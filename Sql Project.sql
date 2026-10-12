@@ -1,6 +1,3 @@
-create database projectwork;
-use projectwork;
-
 CREATE TABLE users (
     user_id INT PRIMARY KEY,
     signup_date DATE NOT NULL,
