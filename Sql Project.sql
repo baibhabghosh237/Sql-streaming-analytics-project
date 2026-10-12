@@ -1,3 +1,8 @@
+DROP TABLE IF EXISTS watch_history;
+DROP TABLE IF EXISTS videos;
+DROP TABLE IF EXISTS users;
+
+
 CREATE TABLE users (
     user_id INT PRIMARY KEY,
     signup_date DATE NOT NULL,
